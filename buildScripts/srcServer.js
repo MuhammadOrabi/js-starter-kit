@@ -17,7 +17,7 @@ app.use(require('webpack-dev-middleware')(compiler, {
 
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../src/index.html'));
+    res.sendFile(path.join(__dirname, '../src/userExample/index.html'));
 });
 
 app.get('/users', (req, res) => {

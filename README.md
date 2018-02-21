@@ -79,3 +79,9 @@
         > Recommendation
             `Axios`
     
+    - Project Structure
+        > Options
+            [`File Type MVC`, `Feature`]
+        > Recommendation
+            `Feature`
+    

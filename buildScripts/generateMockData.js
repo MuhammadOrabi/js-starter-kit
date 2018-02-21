@@ -5,7 +5,7 @@ import { schema } from './mockDataSchema';
 import fs from 'fs';
 import chalk from 'chalk';
 
-const outputFile = './src/api/db.json';
+const outputFile = './src/userExample/api/db.json';
 
 const json = JSON.stringify(jsf(schema));
 

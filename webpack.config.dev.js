@@ -4,11 +4,11 @@ import path from 'path';
 export default {
     devtool: 'inline-source-map',
     entry: [
-        path.resolve(__dirname, 'src/index')
+        path.resolve(__dirname, 'src/userExample/index')
     ],
     target: 'web',
     output: {
-        path: path.resolve(__dirname, 'src'),
+        path: path.resolve(__dirname, 'src/userExample'),
         publicPath: '/',
         filename: 'bundle.js'
     },
