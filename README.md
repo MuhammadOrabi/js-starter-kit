@@ -4,8 +4,8 @@
 	- Editors and Configurations
 		> Options
 			[`atom`, `Sublime`, `Brackets`, `VSCode`]
-			`Editorconfig`
 		> Recommendation
+            `VSCode - Editorconfig`
 
     - Package Management
         > Options
@@ -36,4 +36,3 @@
             [`Bable`, `TypeScript`]
         > Recommendation
             `Babel`
-	
