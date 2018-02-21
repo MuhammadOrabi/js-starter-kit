@@ -31,4 +31,9 @@
         > Recommendation
             `npm scripts`
 
+    - Transpiling
+        > Options
+            [`Bable`, `TypeScript`]
+        > Recommendation
+            `Babel`
 	
