@@ -1,6 +1,7 @@
 # JavaScript Starter Kit
 
-### Steps
+### Starter Kit Plan
+
 	- Editors and Configurations
 		> Options
 			[`atom`, `Sublime`, `Brackets`, `VSCode`]
@@ -53,3 +54,9 @@
             [`inline-source-map`]
         > Recommendation
             `inline-source-map`
+
+    - Linting
+        > Options
+            [`ESlint`, `JSLint`, `JSHint`]
+        > Recommendation
+            `ESlint`
