@@ -1,55 +1,55 @@
 # JavaScript Starter Kit
 
 ### Steps
-	- Editors and Configurations
-		> Options
+	-Editors and Configurations
+		>Options
 			[`atom`, `Sublime`, `Brackets`, `VSCode`]
-		> Recommendation
+		>Recommendation
             `VSCode - Editorconfig`
 
-    - Package Management
-        > Options
+    -Package Management
+        >Options
             [`npm`, 'yarn']
-        > Recommendation
+        >Recommendation
             `yarn`
 
-    - Development Webserver
-        > Options
+    -Development Webserver
+        >Options
             [`Live-server`, `Http-server`, `Express`, `Webpack Dev Server`, `Browsersync`]
-        > Recommendation
+        >Recommendation
             `Express`
 
-    - Sharing Work In Progress
-        > Options
+    -Sharing Work In Progress
+        >Options
             [`Localtunnel`, `Ngrok`, `Now`, `Surge`]
-        > Recommendation
+        >Recommendation
             `Localtunnel`
 
-    - Automation
-        > Options
+    -Automation
+        >Options
             [`Grunt`, `Gulp`, `npm scripts`]
-        > Recommendation
+        >Recommendation
             `npm scripts`
 
-    - Transpiling
-        > Options
+    -Transpiling
+        >Options
             [`Bable`, `TypeScript`]
-        > Recommendation
+        >Recommendation
             `Babel`
-    - Module Formats
-        > Options
+    -Module Formats
+        >Options
             [`Common Js`, `ES6`]
-        > Recommendation
+        >Recommendation
             `ES6`
 
-    - Bundle
-        > Options
+    -Bundle
+        >Options
             [`Webpack`, `Browserfy`, `Rollup`, `JSPM`]
-        > Recommendation
+        >Recommendation
             `Webpack`
 	
-    - Sourcemaps
-        > Options
+    -Sourcemaps
+        >Options
             [`inline-source-map`]
-        > Recommendation
+        >Recommendation
             `inline-source-map`
