@@ -11,5 +11,17 @@
         > Options
             [`npm`, 'yarn']
         > Recommendation
-            yarn    
+            `yarn`
+
+    - Development Webserver
+        > Options
+            [`Live-server`, `Http-server`, `Express`, `Webpack Dev Server`, `Browsersync`]
+        > Recommendation
+            `Express`
+
+    - Sharing Work In Progress
+        > Options
+            [`Localtunnel`, `Ngrok`, `Now`, `Surge`]
+        > Recommendation
+            `Localtunnel`
 	
