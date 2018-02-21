@@ -20,6 +20,11 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../src/index.html'));
 });
 
+app.get('/users', (req, res) => {
+    res.json([{'id': 1, 'name': 'User'}]);
+});
+
+
 app.listen(port, (err) => {
     if (err) {
         console.error(err);

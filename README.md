@@ -72,4 +72,10 @@
             [`Travis`, `Appveyor`]
         > Recommendation
             `Travis`
+
+    - HTTP Requests
+        > Options
+            [`Fetch`, `Axios`]
+        > Recommendation
+            `Axios`
     
