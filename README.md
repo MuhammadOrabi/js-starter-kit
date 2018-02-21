@@ -71,5 +71,5 @@
         > Options
             [`Travis`, `Appveyor`]
         > Recommendation
-            ``
+            `Travis`
     
