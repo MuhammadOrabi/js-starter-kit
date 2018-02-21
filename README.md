@@ -36,3 +36,20 @@
             [`Bable`, `TypeScript`]
         > Recommendation
             `Babel`
+    - Module Formats
+        > Options
+            [`Common Js`, `ES6`]
+        > Recommendation
+            `ES6`
+
+    - Bundle
+        > Options
+            [`Webpack`, `Browserfy`, `Rollup`, `JSPM`]
+        > Recommendation
+            `Webpack`
+	
+    - Sourcemaps
+        > Options
+            [`inline-source-map`]
+        > Recommendation
+            `inline-source-map`
