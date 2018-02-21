@@ -60,3 +60,16 @@
             [`ESlint`, `JSLint`, `JSHint`]
         > Recommendation
             `ESlint`
+    
+    - Testing
+        > Options
+            [`Mocha - Chai - JSDOM`, `Jest`, `AVA``]
+        > Recommendation
+            `Mocha - Chai - JSDOM`
+    
+    - Continuous Integration
+        > Options
+            [`Travis`, `Appveyor`]
+        > Recommendation
+            ``
+    
