@@ -6,4 +6,10 @@
 			[`atom`, `Sublime`, `Brackets`, `VSCode`]
 			`Editorconfig`
 		> Recommendation
+
+    - Package Management
+        > Options
+            [`npm`, 'yarn']
+        > Recommendation
+            yarn    
 	
