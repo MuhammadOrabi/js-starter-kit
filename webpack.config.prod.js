@@ -2,28 +2,41 @@ import webpack from 'webpack';
 import path from 'path';
 import htmlWebpackPlugin from 'html-webpack-plugin';
 
-
 export default {
-    devtool: 'inline-source-map',
+    devtool: 'source-map',
     entry: [
         path.resolve(__dirname, 'src/userExample/index')
     ],
     target: 'web',
     output: {
-        path: path.resolve(__dirname, 'src/userExample'),
+        path: path.resolve(__dirname, 'dist/userExample'),
         publicPath: '/',
         filename: 'bundle.js'
     },
     plugins: [
-        // Create HTML File that includes a reference to bundled JS
-        new htmlWebpackPlugin({
-            template: 'src/userExample/index.html',
-            inject: true
-        }),
         new webpack.LoaderOptionsPlugin({
             debug: true,
             noInfo: false,
-        })
+        }),
+        // Create HTML File that includes a reference to bundled JS
+        new htmlWebpackPlugin({
+            template: 'src/userExample/index.html',
+            minify: {
+                removeComments: true,
+                collapseWhitespace: true,
+                removeRedundantAttributes: true,
+                useShortDoctype: true,
+                removeEmptyAttributes: true,
+                removeStyleLinkTypeAttributes: true,
+                keepClosingSlash: true,
+                minifyJS: true,
+                minifyCSS: true,
+                minifyURLs: true
+            },
+            inject: true
+        }),
+        // Minify JS
+        new webpack.optimize.UglifyJsPlugin()
     ],
     module: {
         rules: [
